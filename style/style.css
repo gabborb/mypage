@@ -1,0 +1,87 @@
+#navigator {
+  font-family: "Times New Roman"; Times; Serif;
+  margin-top: 1%;
+}
+#navigator ul {
+  position: fixed;
+  top: 0;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #575757;
+  overflow: hidden;
+  width: 99%;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+#navigator li {
+  float: left;
+}
+#navigator li image {
+  display: block;
+  border-radius: 20px;
+}
+#navigator li a {
+  display: block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+#navigator li a:hover {
+  background-color: #555;
+  color: white;
+}
+#bgf {
+  width: 40%;
+  margin-top: 5%;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 2px solid gray;
+  box-sizing: border-box;
+  border-radius: 25px / 15px;
+  background-color: rgba(255, 255, 255, 0.48);
+}
+section#webcontent {
+  border-bottom: 100px;
+}
+.middle {
+  width: 56%;
+  float: left;
+  border-radius: 5px / 5px;
+  background-color: rgba(255, 255, 255, 0.48);
+  padding: 5px;
+  border: 2px solid gray;
+  margin: 2px;
+  margin-left: 10%;
+}
+.side {
+  width: 20%;
+  float: right;
+  background-color: rgba(255, 255, 255, 0.48);
+  padding: 2px;
+  border: 2px solid gray;
+  border-radius: 5px / 5px;
+  margin: 2px;
+  margin-right: 10%;
+}
+.content {
+  background-color: rgba(255, 255, 255, 0.48);
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 2px / 2px;
+  margin: 4px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.active {
+  background-color: #00962b;
+  color: white;
+}
+body {
+  background-image: url("054.webp");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+}
